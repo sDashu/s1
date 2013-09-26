@@ -1,0 +1,6 @@
+#index_box { position: absolute; top: 50%; left: 50%; width: 548px; height: 110px; margin-top: -55px; margin-left: -274px;}
+#index_box h1 { width: 547px; height: 51px; background-image: url(../images/b_logo.png); font-size: 72px; text-indent: -999em;}
+#index_box ul { width: 320px; margin: 33px auto 0;}
+#index_box li { float: left; font-size: 16px;}
+#index_box a { color: #383838; padding: 5px 12px;}
+#index_box a:hover { color: #000; background-color: #ececec; border-radius: 2px;}

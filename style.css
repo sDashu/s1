@@ -1,0 +1,105 @@
+/*
+Theme Name: S1
+Theme URI: iuuuuu.com/qduan.com
+Description: 自用主题
+Version: 1.0
+Author: 偷偷
+Author URI: http://www.iuuuuu.com/
+Tags: 标签，多个用半角逗号隔开
+*/
+
+/* CSS Rest */
+body, header, p, ol, ul, li, dl, dt, dd, button, input, textarea, cite, h1, h2, small, hr { margin: 0; padding: 0;}
+body, button, input, select, textarea { line-height: 1.5; font-family: Helvetica, tahoma, Microsoft Yahei, "微软雅黑"; font-size: 12px; font-style: normal; font-weight: normal; font-variant: normal; font-size-adjust: none; font-stretch: normal;}
+body { font-size: 12px; background: url(images/background.png);}
+a { text-decoration: none; border: none; blr: expression(this.onFocus=this.blur());}
+a img,input { border: none;}
+a:hover { color: #005580;}
+:focus { outline: none;}
+li { list-style: none;}
+small { -webkit-text-size-adjust: none;}
+i, em, cite { font-style: normal;}
+pre { display: block; padding: 9.5px; font-size: 13px; line-height: 20px; word-break: break-all; word-wrap: break-word; white-space: pre; white-space: pre-wrap; background-color: #f5f5f5; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 4px;}
+.clear { clear: both;}
+.content ul { display: block; padding: 9.5px; font-size: 12px; word-break: break-all; word-wrap: break-word; white-space: pre; white-space: pre-wrap; background-color: #f5f5f5; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 4px;}
+.content li { text-indent: 20px; line-height: 1; background: url(images/icon_li.png) no-repeat;}
+
+/* 低级浏览器提示信息 */
+.z { width: 100%; background-color: #fff;}
+.tips { 
+	position: absolute; top: 50%; left: 50%; margin-top: -100px; margin-left: -315px;
+	width: 630px; height: 200px; font-size: 30px;
+}
+/* 滚动置顶部 */
+.scrollTop { z-index: 2; position: fixed; right: 10px; bottom: 10px; width: 55px; height: 55px; display: none;  box-shadow: 2px 2px 2px rgba(186,186,186,0.7); border-radius: 5px; background: #e9e9e9 url(images/scrolltop.png) no-repeat; transition: background 1s;}
+.scrollTop:hover { background-color: #fff;}
+/* 插件调整 */
+.ds-powered-by { display: none;} /*多说*/
+.syntaxhighlighter { padding: 10px 0 !important; box-shadow: 1px 1px 3px #ccc; border-radius: 5px;} /*高亮*/
+
+/* 上下篇文章 */
+.previous, .next { position: fixed; top: 0; width: 86px; height: 100%;}
+.previous { left: 10px;}
+.next { right: 10px;}
+.previous span, .next span { position: absolute; top: 50%; margin-top: -43px; width: 86px; height: 86px; display: none;}
+.previous a, .next a { width: 86px; height: 86px; display: block; background: url(images/post_link.png) no-repeat;}
+.previous a, .previous a.n:hover { background-position: 0 -86px;}
+.next a, .next a.n:hover { background-position: -86px -86px;}
+.previous a:hover { background-position: 0 0;}
+.next a:hover { background-position: -86px 0;}
+
+/* 头部 */
+.header h1 a { width: 547px; height: 51px; display: block; background-image: url(images/b_logo.png); font-size: 72px; text-indent: -999em;}
+.header ul { width: 380px; margin: 20px auto 0; font-size: 16px;}
+.header ul li { float: left; margin: 0 3px;}
+.header ul a { float: left; color: #383838; padding: 2px 10px;}
+.header ul a:hover, .current-post-ancestor a, .current-menu-parent a, .current-menu-item a, .current_page_item a { color: #000; background-color: #c9cace; text-decoration: none; border-radius: 2px;}
+/* 首页头部 */
+.index_top { position: absolute; top: 50%; left: 50%; width: 548px; height: 110px; margin-top: -55px; margin-left: -274px;}
+.index_top .skip { position: absolute; left: 239px; top: 150px; width: 70px; height: 22px; display: block; text-align: center; line-height: 22px; font-size: 14px; background-color: #ccc; color: #333; transition: background 1s;}
+.index_top .skip:hover { background: #333; color: #fff;}
+/* 内容页头部 */
+.content_top { width: 548px; height: 110px; margin: 65px auto 0;}
+
+/* 主外框架 */
+.b_wrap { margin-bottom: 20px;}
+.b_wrap_index { position: absolute; top: 100%; left: 50%; margin-left: -294px;}
+.content_list { width: 588px; margin: 0 auto;}
+
+/* 底部 */
+.footer { color: #000; width: 100%; height: 20px; margin-bottom: 10px; text-align: center; text-shadow:1px 1px 1px #fff;}
+
+/* 日志 */
+.article { width: 100%; padding: 20px 0; border-bottom: #bebec5 solid 1px; border-top: #fff solid 1px; line-height: 22px; text-shadow:1px 1px 1px #fff;}
+.article:first-child { border-top: none;}
+.article:last-child { border-bottom: none;}
+.article h2 { margin-bottom: 10px;}
+.article h2 a { font-size: 20px; color: #333;}
+.article h2 a:hover { color: #000;}
+.article p { font-size: 14px; color: #444; margin-bottom: 10px;}
+.article img { max-width: 588px; height: auto; margin: 0 auto;}
+.article .more { font-size: 14px; color: #9b9b9b;}
+.more-link { display: none;}
+.article cite { width: 100%; height: 21px; display: block;}
+.article .date { margin-left: 10px;}
+
+/* 照片 */
+.photo { margin-top: 20px; padding: 10px 20px 15px; background-color: #fff; box-shadow: 2px 2px 2px rgba(186,186,186,0.7); border-radius: 5px;}
+.photo .title { margin-bottom: 5px; font-size: 22px; font-weight: 100; color: #333; text-shadow: 1px 1px 0px #ccc;}
+.photo img { max-width: 548px; height: auto; float: left; margin-bottom: 10px;}
+.photo cite { width: 100%; height: 21px; display: block;}
+
+/* 标签 */
+.tag { float: left; margin-right: 10px; text-shadow:none;}
+.tag a { float: left; margin-right: 7px; padding: 0 7px; line-height: 21px; background-color: #9b9b9b; color: #fff; text-align: center;}
+.tag a:hover { background-color: #828282; text-decoration: none;}
+p.msg { float: right; font-size: 10px; color: #b0b0b0;}
+
+/* 内容 */
+.single { margin-top: 30px; text-shadow:1px 1px 1px #fff;}
+.single .title { font-size: 24px; font-weight: 100;}
+.single p { font-size: 14px; color: #444; margin: 20px 0;}
+.single img { max-width: 588px; height: auto; margin: 0 auto;}
+.single .msg { padding-bottom: 10px; border-bottom: #bebec5 solid 1px; color: #999;}
+.single .date { display: block; float: left; margin-right: 20px;}
+.single .content { border-top: #fff solid 1px;}

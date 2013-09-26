@@ -1,0 +1,10 @@
+/*CSS Rest*/
+body, p, ol, ul, li, dl, dt, dd, button, input, textarea, cite, h1 { margin:0; padding:0;}
+body, button, input, select, textarea { line-height:1.5; font-family:tahoma, arial, Microsoft Yahei, "微软雅黑"; font-size:12px; font-style:normal; font-weight:normal; font-variant:normal; font-size-adjust:none; font-stretch:normal;}
+body { background:#fff;}
+a { text-decoration:none; border:none; blr:expression(this.onFocus=this.blur());}
+a img,input {border:none;}
+:focus {outline:none;}
+li { list-style:none;}
+small { -webkit-text-size-adjust:none;}
+i, em, cite { font-style:normal;}
